@@ -1,6 +1,6 @@
 # C Programming Slides
 
-Comprehensive C programming course materials covering fundamentals to advanced topics. This repository contains 25 lecture slide decks with detailed code examples and outputs.
+Comprehensive C programming course materials covering fundamentals to advanced topics. This repository contains 32 lecture slide decks with detailed code examples and outputs.
 
 ## About
 
@@ -43,9 +43,18 @@ Visit my blog: [blog.jyotiprakash.org](https://blog.jyotiprakash.org)
 24. **File I/O** - fopen, fclose, fprintf, fscanf, fread, fwrite
 25. **Static and Global Variables** - Storage classes, extern keyword, linkage
 
+### Systems Programming (Decks 26-32)
+26. **Function Pointers** - Callbacks, qsort, design patterns
+27. **Command Line Arguments** - argc/argv, practical programs
+28. **Typedef and Const** - Type aliases, const correctness
+29. **Bitwise Operations** - Bit manipulation, masks, flags
+30. **Standard Library** - string.h, stdlib.h, math.h overview
+31. **Memory Alignment & Padding** - Struct layout, optimization
+32. **Compilation Process** - Preprocessing, compilation, assembly, linking
+
 ## Features
 
-- **Comprehensive Coverage**: 25 decks covering complete C curriculum
+- **Comprehensive Coverage**: 32 decks covering complete C curriculum
 - **Code Examples**: Each concept illustrated with working programs
 - **Output Samples**: Every program includes expected output
 - **Progressive Learning**: Structured from basics to advanced topics
