@@ -58,8 +58,8 @@ Visit [cprog.jyotiprakash.org](https://cprog.jyotiprakash.org) to view or downlo
 ### Local Access
 Clone this repository:
 ```bash
-git clone https://github.com/yourusername/cprog.jyotiprakash.org.git
-cd cprog.jyotiprakash.org
+git clone https://github.com/ShowMeTheStack/cprogslides.git
+cd cprogslides
 ```
 
 Open `index.html` in your browser to browse all slides.
