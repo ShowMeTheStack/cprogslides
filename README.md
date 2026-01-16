@@ -1,6 +1,6 @@
 # C Programming Slides
 
-Comprehensive C programming course materials covering fundamentals to advanced topics. This repository contains 24 lecture slide decks with detailed code examples and outputs.
+Comprehensive C programming course materials covering fundamentals to advanced topics. This repository contains 25 lecture slide decks with detailed code examples and outputs.
 
 ## About
 
@@ -35,16 +35,17 @@ Visit my blog: [blog.jyotiprakash.org](https://blog.jyotiprakash.org)
 18. **Dynamic Memory Allocation** - malloc, calloc, realloc, free
 19. **Stack vs Heap** - Memory models, function calls, persistence
 
-### Advanced Topics (Decks 20-24)
+### Advanced Topics (Decks 20-25)
 20. **Recursion** - Recursive functions, base cases, examples
 21. **Enums and Unions** - Enumerations, unions, tagged unions
 22. **Multifile Compilation** - Header files, extern, static
 23. **C Preprocessor** - Macros, conditional compilation
 24. **File I/O** - fopen, fclose, fprintf, fscanf, fread, fwrite
+25. **Static and Global Variables** - Storage classes, extern keyword, linkage
 
 ## Features
 
-- **Comprehensive Coverage**: 24 decks covering complete C curriculum
+- **Comprehensive Coverage**: 25 decks covering complete C curriculum
 - **Code Examples**: Each concept illustrated with working programs
 - **Output Samples**: Every program includes expected output
 - **Progressive Learning**: Structured from basics to advanced topics
