@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C Programming Slides</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #2c3e50;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    .author {
+      font-size: 1.2em;
+      color: #555;
+      margin: 15px 0;
+    }
+    .blog-link {
+      margin-top: 10px;
+    }
+    .blog-link a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .blog-link a:hover {
+      text-decoration: underline;
+    }
+    .intro {
+      background: #ecf0f1;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .slide-list {
+      list-style: none;
+    }
+    .slide-item {
+      background: #fff;
+      margin-bottom: 15px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .slide-item:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-color: #3498db;
+    }
+    .slide-number {
+      display: inline-block;
+      background: #2c3e50;
+      color: white;
+      padding: 5px 12px;
+      border-radius: 3px;
+      font-weight: bold;
+      margin-right: 10px;
+      min-width: 50px;
+      text-align: center;
+    }
+    .slide-title {
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #2c3e50;
+      margin-bottom: 8px;
+    }
+    .slide-description {
+      color: #666;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+    .slide-links a {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-right: 10px;
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.9em;
+      transition: background 0.3s;
+    }
+    .slide-links a:hover {
+      background: #2980b9;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #ecf0f1;
+      text-align: center;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>C Programming Slides</h1>
+      <div class="author">Created by Prof. Jyotiprakash Mishra</div>
+      <div class="blog-link">
+        <a href="https://blog.jyotiprakash.org" target="_blank">Visit My Blog →</a>
+      </div>
+    </header>
+
+    <div class="intro">
+      <p>Comprehensive C programming course materials covering fundamentals to advanced topics. Each deck contains detailed code examples with outputs.</p>
+    </div>
+
+    <ul class="slide-list">
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">01</span>Hello World</div>
+        <div class="slide-description">Introduction to C programming, first program, compilation process, basic program structure.</div>
+        <div class="slide-links">
+          <a href="deck1_hello_world.pdf" target="_blank">View PDF</a>
+          <a href="deck1_hello_world.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">02</span>Data Types</div>
+        <div class="slide-description">Fundamental data types in C: int, float, double, char. Size, ranges, and usage examples.</div>
+        <div class="slide-links">
+          <a href="deck2_data_types.pdf" target="_blank">View PDF</a>
+          <a href="deck2_data_types.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">03</span>Type Conversions</div>
+        <div class="slide-description">Implicit and explicit type conversions, casting, type promotion, and conversion rules.</div>
+        <div class="slide-links">
+          <a href="deck3_type_conversions.pdf" target="_blank">View PDF</a>
+          <a href="deck3_type_conversions.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">04</span>Operators</div>
+        <div class="slide-description">Arithmetic, relational, logical, bitwise, and assignment operators with examples.</div>
+        <div class="slide-links">
+          <a href="deck4_operators.pdf" target="_blank">View PDF</a>
+          <a href="deck4_operators.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">05</span>Operator Precedence</div>
+        <div class="slide-description">Operator precedence and associativity rules, expression evaluation order.</div>
+        <div class="slide-links">
+          <a href="deck5_precedence.pdf" target="_blank">View PDF</a>
+          <a href="deck5_precedence.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">06</span>Conditional Statements</div>
+        <div class="slide-description">If, if-else, nested if, and conditional operators for decision making.</div>
+        <div class="slide-links">
+          <a href="deck6_conditionals.pdf" target="_blank">View PDF</a>
+          <a href="deck6_conditionals.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">07</span>Loops</div>
+        <div class="slide-description">For, while, and do-while loops. Loop control with break and continue statements.</div>
+        <div class="slide-links">
+          <a href="deck7_loops.pdf" target="_blank">View PDF</a>
+          <a href="deck7_loops.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">08</span>Switch Statements</div>
+        <div class="slide-description">Switch-case statements, break, default case, and multi-way branching.</div>
+        <div class="slide-links">
+          <a href="deck8_switch.pdf" target="_blank">View PDF</a>
+          <a href="deck8_switch.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">09</span>Arrays</div>
+        <div class="slide-description">One-dimensional arrays, declaration, initialization, traversal, and operations.</div>
+        <div class="slide-links">
+          <a href="deck9_arrays.pdf" target="_blank">View PDF</a>
+          <a href="deck9_arrays.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">10</span>2D Arrays</div>
+        <div class="slide-description">Two-dimensional arrays, matrix operations, row-column access patterns.</div>
+        <div class="slide-links">
+          <a href="deck10_2d_arrays.pdf" target="_blank">View PDF</a>
+          <a href="deck10_2d_arrays.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">11</span>Strings</div>
+        <div class="slide-description">Character arrays, string manipulation, string library functions, input/output.</div>
+        <div class="slide-links">
+          <a href="deck11_strings.pdf" target="_blank">View PDF</a>
+          <a href="deck11_strings.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">12</span>Functions</div>
+        <div class="slide-description">Function declaration, definition, parameters, return values, recursion basics.</div>
+        <div class="slide-links">
+          <a href="deck12_functions.pdf" target="_blank">View PDF</a>
+          <a href="deck12_functions.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">13</span>Structures</div>
+        <div class="slide-description">User-defined data types, structure declaration, member access, nested structures.</div>
+        <div class="slide-links">
+          <a href="deck13_structs.pdf" target="_blank">View PDF</a>
+          <a href="deck13_structs.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">14</span>Pointers Basics</div>
+        <div class="slide-description">Pointer fundamentals, address-of operator, dereference operator, pointer arithmetic.</div>
+        <div class="slide-links">
+          <a href="deck14_pointers.pdf" target="_blank">View PDF</a>
+          <a href="deck14_pointers.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">15</span>Pointers and Arrays</div>
+        <div class="slide-description">Array-pointer relationship, pointer arithmetic with arrays, array traversal using pointers.</div>
+        <div class="slide-links">
+          <a href="deck15_pointers_arrays.pdf" target="_blank">View PDF</a>
+          <a href="deck15_pointers_arrays.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">16</span>Pointers and Strings</div>
+        <div class="slide-description">String manipulation using pointers, pointer vs array for strings, string operations.</div>
+        <div class="slide-links">
+          <a href="deck16_pointers_strings.pdf" target="_blank">View PDF</a>
+          <a href="deck16_pointers_strings.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">17</span>Pointers and Structures</div>
+        <div class="slide-description">Structure pointers, arrow operator, self-referential structures, linked lists.</div>
+        <div class="slide-links">
+          <a href="deck17_pointers_structures.pdf" target="_blank">View PDF</a>
+          <a href="deck17_pointers_structures.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">18</span>Dynamic Memory Allocation</div>
+        <div class="slide-description">malloc, calloc, realloc, free. Dynamic arrays, 2D arrays, jagged arrays, memory leaks.</div>
+        <div class="slide-links">
+          <a href="deck18_dynamic_memory.pdf" target="_blank">View PDF</a>
+          <a href="deck18_dynamic_memory.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">19</span>Stack vs Heap</div>
+        <div class="slide-description">Stack memory, heap memory, LIFO behavior, function calls, memory persistence.</div>
+        <div class="slide-links">
+          <a href="deck19_stack_heap.pdf" target="_blank">View PDF</a>
+          <a href="deck19_stack_heap.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">20</span>Recursion</div>
+        <div class="slide-description">Recursive functions, base case, recursive case. Examples: factorial, fibonacci, Tower of Hanoi.</div>
+        <div class="slide-links">
+          <a href="deck20_recursion.pdf" target="_blank">View PDF</a>
+          <a href="deck20_recursion.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">21</span>Enums and Unions</div>
+        <div class="slide-description">Enumerations for named constants, unions for shared memory, tagged unions.</div>
+        <div class="slide-links">
+          <a href="deck21_enums_unions.pdf" target="_blank">View PDF</a>
+          <a href="deck21_enums_unions.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">22</span>Multifile Compilation</div>
+        <div class="slide-description">Header files, include guards, extern variables, static functions, compilation process.</div>
+        <div class="slide-links">
+          <a href="deck22_multifile.pdf" target="_blank">View PDF</a>
+          <a href="deck22_multifile.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">23</span>C Preprocessor</div>
+        <div class="slide-description">Macros, conditional compilation, predefined macros, stringification, token pasting.</div>
+        <div class="slide-links">
+          <a href="deck23_preprocessor.pdf" target="_blank">View PDF</a>
+          <a href="deck23_preprocessor.pdf" download>Download</a>
+        </div>
+      </li>
+
+      <li class="slide-item">
+        <div class="slide-title"><span class="slide-number">24</span>File I/O</div>
+        <div class="slide-description">File operations, fopen, fclose, fprintf, fscanf, fread, fwrite. Text and binary files.</div>
+        <div class="slide-links">
+          <a href="deck24_file_io.pdf" target="_blank">View PDF</a>
+          <a href="deck24_file_io.pdf" download>Download</a>
+        </div>
+      </li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 Prof. Jyotiprakash Mishra. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
